@@ -79,7 +79,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px 0 60px 0;
+    padding: 10px 0 60px 0;
 }
 
 .conteudos {
@@ -137,6 +137,7 @@ body {
 .conteudo-2 {
     width: 83%;
     padding-top: 20px;
+    padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,9 +156,9 @@ body {
 }
 
 section .conteudos {
-    width: 70%;
+    width: 75%;
     margin: 0;
-    padding: 0;
+    padding: 0px 43px 25px 43px;
     overflow-x: hidden;
     display: flex;
     justify-content: center;
@@ -187,7 +188,7 @@ section .conteudos .time {
     align-items: center;
     justify-content: center;
     align-content: center;
-    gap: 45px;
+    gap: 60px;
 }
 
 /* organiza as divs amarelas e organização dos nomes */
