@@ -7,7 +7,13 @@
 
 html, body {
     min-height: 100%;
+    max-width: 1635px;
 }
+
+body {
+    background: linear-gradient(90deg, #131417, var(--dark) 35% 65%, #131417);
+}
+
 
 header {
     background-color: #0b1831;
@@ -22,31 +28,57 @@ header {
 }
 
 .cabeçalho-geral {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .cabeçalho {
-    width: 40%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.nav-geral {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.nav-itens {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.item-nav {
+    font-size: 22px;
+}
+
+.linguagens-geral {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    align-items: center;
+}
+
 .linguagens {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    width: 45px;
+    justify-content: center;
+    width: 100%;
     height: 50px;
     gap: 15px;
-    margin-right: 55px;
 }
 
-body {
-    background: linear-gradient(90deg, #131417, var(--dark) 35% 65%, #131417);
-}
 
 .blocos-individuais {
     display: flex;
@@ -376,47 +408,5 @@ section .conteudos .time {
     margin-right: 2px;
 }
 
-/* ------ EDIÇÃO JHONSON ----------*/
-
-.JHONSON-CODE {
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
-    height: 500px;
-}
-
-.JHONSON-CODE .img {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.JHONSON-CODE .img1 {
-    padding-top: 20px;
-    width: 300px;
-}
-
-.JHONSON-CODE .saudação {
-    color: greenyellow;
-    font-family: "Nabla", cursiva;
-    padding-top: 60px;
-}
-
-/* ------ EDIÇÃO GABRIEL --------*/
-
-.GABRIEL-CODE {
-    border-bottom: 2px solid red;
-    height: 500px;
-    color: yellow;
-    text-align: center;
-    padding-top: 300px;
-}
-
-/* ------ EDIÇÃO RYAN -----------*/
-
-.RYAN-CODE {
-    border-bottom: 2px solid red;
-    height: 500px;
-    color: yellow;
-    text-align: center;
-    padding-top: 300px;
-}
+/* -------------------------------------------- */
+/* -------------------------------------------- */

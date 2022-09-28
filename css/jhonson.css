@@ -1,6 +1,9 @@
+/* ------ EDIÇÃO JHONSON ----------*/
+
 .JHONSON-CODE {
-    border-bottom: 5px solid white;
-    height: 300px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    height: 500px;
 }
 
 .JHONSON-CODE .img {
@@ -16,8 +19,10 @@
 
 .JHONSON-CODE .saudação {
     color: greenyellow;
-    font-family: 'Nabla', cursiva;
-    padding-top: 20px;
+    font-family: "Nabla", cursiva;
+    padding-top: 60px;
 }
+
+
 
 /* -------------------------------------------- */
