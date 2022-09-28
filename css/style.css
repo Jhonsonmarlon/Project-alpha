@@ -206,7 +206,7 @@ section .conteudos .time {
     transition: var(--trans);
 }
 
-/* deixa fundo amarelo dos comentarios */
+/* deixa fundo amarelo dos comentarios dos devs*/
 
 .conteudos .dev:nth-of-type(even) {
     text-align: right;
